@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import './App.css';
 import { CardList } from './Components/card-list/CardList';
 import { SearchBox } from './Components/search/search';
-
+import { Footer } from './Components/Footer/Footer.jsx';
 
 class App extends Component { 
   constructor () {
@@ -36,6 +36,7 @@ class App extends Component {
       handleChange={this.handleChange}
     />
     <CardList monsters={filteredMonsters} />
+    <Footer />
     </div>
   );
   }

@@ -4,6 +4,13 @@
 
 .title {
   font-family: 'Gloria Hallelujah', cursive;
-  font-size: 50px;
-  color:  #95dada;
+  font-size: 60px;
+  color:  #f4ebc1;
+}
+
+.footer {
+  font-family: 'Gloria Hallelujah', cursive;
+  font-size: 15px;
+  color:  #f4ebc1;
+  margin: 50px;
 }
